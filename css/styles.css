@@ -574,7 +574,7 @@ color: #FFFFFF;
 }
 
 .footer-left{
-    margin-right: 120px
+
 }
 
 .footer-icon-pic{
@@ -772,7 +772,7 @@ color: #FFFFFF;
 } */
 
 .privacy-policy-custom-checkbox {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -807,14 +807,11 @@ color: #FFFFFF;
     width: 264px;
     height: 40px;
     background-color: #2E2F42;
-    resize: none;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
-    margin-bottom: 8px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 6px 16px;
 }
@@ -824,17 +821,18 @@ color: #FFFFFF;
 }
 
 .footer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
-    padding: 10px 24px;
-    width: 165px;
+    padding: 8px 24px;
+    min-width: 165px;
     height: 40px;
     background: #4d5ae5;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
     color: #fff;
     cursor: pointer;
     border: none;
@@ -844,3 +842,16 @@ color: #FFFFFF;
 .footer-button:focus{
     background-color: #404bbf;
 }
+
+.footer-btn-svg{
+    margin-left:16px;
+    fill: #fff;
+}
+
+.footer-form{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
