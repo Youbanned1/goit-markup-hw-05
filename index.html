@@ -378,20 +378,13 @@
           <label class="subscribe-form-label" for="foot-email-label">
             <input class="footer-email" type="email" id="foot-email-label" name="user-email" placeholder="E-mail" />
           </label>
-          <button type="button" class="footer-button">Subscribe
-            <svg width="24" height="20" class="footer-btn-svg">
+          <button type="submit" class="footer-button">Subscribe
+            <svg width="24" height="24" class="footer-btn-svg">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
           </button>
-
         </form>
-      <!-- </div>
-      <div class="footer-btn">
-      <button type="button" class="footer-button">Subscribe</button>
-        <svg width="24" height="20" class="order-form-icon">
-          <use href="./images/icons.svg#icon-send"></use>
-        </svg>
-      </div> -->
+      </div>
     </div>
     </footer>
 
@@ -414,7 +407,7 @@
             </div>
           </div>
 
-        <div class="">
+        <div class="model-container">
           <label class="order-form-field-label" for="user-tel">Phone</label>
             <div class="model-conatiner-svg">
               <input class="order-form-input" id="user-tel" type="tel" name="user-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
@@ -424,7 +417,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="model-container">
           <label class="order-form-field-label" for="user-email">Email</label>
               <div class="model-conatiner-svg">
               <input class="order-form-input" id="user-email" type="email" name="user-email">
@@ -434,14 +427,14 @@
             </div>
         </div>
         
-        <div>
+        <div class="model-container-textarea">
           <label class="order-form-field-label" for="user-comment">Comment</label>
           <textarea class="order-form-input-com" name="user-comment" id="user-comment" type="text" placeholder="Text input"></textarea>
         </div>
 
         <div class="privacy-policy-wrapper">
-          <input class="privacy-policy-checkbox visually-hidden" id="privacy-policy"type="checkbox" />
-            <label class="privacy-policy-label" for="privacy-policy">
+          <input class="privacy-policy-checkbox visually-hidden" id="user-privacy" type="checkbox"  value="true" name="user-privacy"/>
+            <label class="privacy-policy-label"  for="user-privacy">
               <span class="privacy-policy-custom-checkbox">
                 <svg width="10" height="8" class="check-box-icon">
                   <use href="./images/icons.svg#icon-check-mark"></use>
@@ -451,10 +444,7 @@
               <a href="" class="policy-text">Privacy Policy</a>
             </label>
         </div>
-
-          <div class="order-form-btn">
             <button type="submit" class="order-form-button">Send</button>
-          </div>
       </div>
     </div>
 </body>
